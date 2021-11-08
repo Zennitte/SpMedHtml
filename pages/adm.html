@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/adm.css">
+    <title>Adm</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="background_cadastrar">
+            <div class="grid alinhar_box">
+                <section class="container_form">
+                    <form class="alinhar_form" onsubmit="">
+                        <h1>Cadastrar Consultas</h1>
+                        <div class="container_input espacamento">
+                            <label for="paciente">Paciente</label>
+                            <select name="paciente" id="paciente"></select>
+                        </div>
+                        <div class="container_input">
+                            <label for="medico">Médico</label>
+                            <select name="medico" id="medico"></select>
+                        </div>
+                        <div class="container_input">
+                            <label for="data">Data</label>
+                            <input type="date" name="data" />
+                        </div>
+                        <button class="btn">Cadastrar</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <div class="background_consulta">
+            <div class="grid alinhar_consulta">
+                <section>
+                    <h2>Consultas Agendadas</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Médico</th>
+                                <th>Paciente</th>
+                                <th>Descrição</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <td>Keiji</td>
+                            <td>Lucas</td>
+                            <td>Apresenta comportamento raivoso</td>
+                            <td>11/11/21</td>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

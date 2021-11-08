@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -33,10 +35,24 @@
 .container_icon{
     display: flex;
     flex-direction: column;
+    width: 15%;
+    justify-content: center;
+    text-align: center;
 }
 
 .container_icon p{
     text-align: center;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
 }
+
+.alinhar{
+    margin-bottom: 8px;
+}
+
+.alinhar_login{
+    padding-left: 10px;
+}
+
 
 
