@@ -7,7 +7,7 @@
 }
 
 .container_header{
-    height: 150px;
+    height: 120px;
     background-color: #F6F6F6;
     display: flex;
     width: 100%;
@@ -22,7 +22,7 @@
 }
 
 .container_logo img{
-    width: 150px;
+    width: 120px;
 }
 
 .container_nav{
@@ -40,6 +40,26 @@
     text-align: center;
 }
 
+.icon_home{
+    height: 45px;
+}
+
+.icon_info{
+    height: 43px;
+}
+
+.icon_contato{
+    height: 35px;
+}
+
+.icon_consulta{
+    height: 35px;
+}
+
+.icon_login{
+    height: 35px;
+}
+
 .container_icon p{
     text-align: center;
     text-transform: uppercase;
@@ -47,12 +67,9 @@
 }
 
 .alinhar{
-    margin-bottom: 8px;
+    margin-bottom: 3px;
 }
 
 .alinhar_login{
     padding-left: 10px;
 }
-
-
-
